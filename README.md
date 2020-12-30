@@ -36,3 +36,15 @@ Comando per terminare la ricarica:
 ```
 node ricarica.js stop
 ```
+
+Su versioni più vecchie di nodejs (ad esempio la 13) è necessario forzare l'uso di due funzionalità (metodi privati e await a livello base) tramite le apposite opzioni `--harmony-private-methods` e `--harmony-top-level-await`, quindi i comandi diventano:
+
+```
+node --harmony-private-methods --harmony-top-level-await ricarica.js start
+```
+
+e 
+
+```
+node --harmony-private-methods --harmony-top-level-await ricarica.js stop
+```
