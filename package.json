@@ -1,0 +1,24 @@
+{
+  "name": "tesla-ricarica",
+  "version": "1.0.0",
+  "description": "Script per avviare e arrestare da remoto la ricarica di auto Tesla",
+  "main": "ricarica.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiannone/tesla-ricarica.git"
+  },
+  "keywords": [
+    "tesla",
+    "ricarica"
+  ],
+  "author": "Emanuele Iannone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eiannone/tesla-ricarica/issues"
+  },
+  "homepage": "https://github.com/eiannone/tesla-ricarica#readme",
+  "dependencies": {
+    "@eiannone/tesla-api": "^1.0.1"
+  }
+}
